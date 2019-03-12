@@ -1,0 +1,21 @@
+{
+  "name": "Babatong",
+  "unit": {
+    "minute": "min(s)"
+  },
+  "select": {
+    "placeholder": "Bus line name"
+  },
+  "info": {
+    "lineinfo": "line information",
+    "reverse": "Reverse direction",
+    "pending": "Pending bus",
+    "interval": "Interval",
+    "parking": "Parking lot"
+  },
+  "error": {
+    "connection": "Network error.",
+    "data": "Data error."
+  },
+  "loading": "Loading..."
+}

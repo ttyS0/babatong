@@ -1,0 +1,21 @@
+{
+  "name": "巴巴通",
+  "unit": {
+    "minute": "分钟"
+  },
+  "select": {
+    "placeholder": "线路名称"
+  },
+  "info": {
+    "lineinfo": "线路信息",
+    "reverse": "更换方向",
+    "pending": "下一班始发车",
+    "interval": "发车间隔",
+    "parking": "停车场"
+  },
+  "error": {
+    "connection": "网络连接错误",
+    "data": "数据错误"
+  },
+  "loading": "加载中..."
+}
