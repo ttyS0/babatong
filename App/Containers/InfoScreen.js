@@ -21,8 +21,7 @@ class InfoScreen extends Component {
   state = {
     direction: 0,
     timer: setInterval(() => {
-      console.log(this.props.navigation.state.params.line)
-      this.props.update(this.props.navigation.state.params.line, true)
+      if(this.props.loading == false) this.props.update(this.props.navigation.state.params.line, true)
     }, 3000)
   }
   componentWillUnmount() {

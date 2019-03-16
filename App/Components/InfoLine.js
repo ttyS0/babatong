@@ -28,14 +28,14 @@ export default class InfoLine extends Component {
               </View>
               {
                 this.props.gps[sk] && this.props.gps[sk].map((bv, bk) => (sk == 0 ?
-                <View key={`${sk}bus`} style={styles.parkingWayBus}>
+                <View key={bk} style={styles.parkingWayBus}>
                   <View style={styles.parkingActiveBranch}>
                     <View style={styles.parkingActiveBranchDot}></View>
                   </View>
                   <Text style={(this.props.pending == bv.codename) ? styles.busPendingLabel : styles.busLabel}>{bv.codename}</Text>
                 </View>
                 :
-                <View key={`${sk}bus`} style={styles.wayBus}>
+                <View key={bk} style={styles.wayBus}>
                   <View style={styles.activeBranch}>
                     <View style={styles.activeBranchDot}></View>
                   </View>
